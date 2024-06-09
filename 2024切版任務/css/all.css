@@ -114,6 +114,10 @@ a {
   width: 60%;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1296px; /* RWD */
   margin: 0 auto;
@@ -521,6 +525,11 @@ a {
   background: #FAFAFA;
 }
 
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .modal-card img {
   border-radius: 20px;
 }/*# sourceMappingURL=all.css.map */

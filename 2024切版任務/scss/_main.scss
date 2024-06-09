@@ -64,6 +64,10 @@ a{
   width: 60%;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 .container {
   max-width: 1296px; /* RWD */
   margin: 0 auto; //置中,要先給寬度才能用
@@ -510,6 +514,9 @@ a{
 }
 
 .modal-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   img{
     border-radius: 20px;
   }
