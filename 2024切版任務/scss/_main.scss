@@ -340,7 +340,7 @@ a{
     margin-top: 80px; /*統一設垂直間距*/
     //work裡面都是block,所以不用df-c
     img{
-      border-radius: 20px;
+      border-radius: 8px;
     }
   }
 }
@@ -422,6 +422,7 @@ a{
       display: flex;
       align-items: center;
       width: 300px;
+      border-radius: 10px;
       img{
         padding-left: 16px;
       }
